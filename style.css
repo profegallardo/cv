@@ -1,0 +1,229 @@
+*{
+text-decoration: none;
+list-style: none;
+padding: 0;
+margin: 0;
+ 
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+h3{
+    
+    text-align: center;
+    font-size: 2.3rem
+}
+
+.hamburguesa{
+    position: fixed;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.hamburguesa .logo:hover .menu{
+    display: block;
+    }
+
+.menu{
+display: none;
+width: auto;
+background-color: #f1a15c;
+
+padding: 10px;
+border-radius: 10px;
+
+}
+.hamburguesa .logo img {
+    cursor: pointer;
+}
+.hamburguesa .logo img:hover{
+    opacity: 0.8;
+
+}
+
+
+.main-nav a {
+    font-size: 1.2rem;
+
+    
+
+    color: #02080e;
+}
+.main-nav a:hover{
+    
+    margin: 14px;
+} 
+
+.encabezado{
+    
+    background: url(imagenes/fondo.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: center;
+    background-position: center;
+    padding:40px 10px 40px 10px;
+    opacity: 0.87;
+    
+
+}
+.nombre{
+    font-family: 'Tajawal', sans-serif;
+    text-align:center ;
+   text-shadow: 3px 4px rgb(239, 206, 128);
+    margin: 2rem;
+
+}
+.nombre h1{
+    font-size: 3.5rem;
+    margin: 2rem;
+    color: rgb(0, 0, 0);
+}
+.nombre h2{
+    font-size: 1.8rem;
+    color: black;
+}
+.redes {
+    text-align: center;
+    
+}
+.redes a{
+    border-radius: 5px;
+}
+ .fa {
+        padding: 10px 5px;
+        font-size: 26px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 5px;
+        background-color: aqua;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      
+
+ /*Sobre mi*/
+
+   #sobre-mi{
+    background-color: rgb(246, 231, 211);
+    padding: 50px 30px;
+}
+
+.sobre-mi p{
+    font-size: 1.2rem;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: justify;
+    
+}
+
+.sobre-mi h3{
+   
+    padding: 20px;
+    
+    
+}
+
+/*Experiencia*/
+.experiencia {
+    font-size: 1.2rem;
+    text-align: left;
+    background: #142d47;
+    padding:40px 40px ;
+    color: gray;
+}
+.experiencia h3{
+    
+    margin: 30px;
+}
+ .experiencia ul li{
+    margin: 10px;
+ }
+
+/*Educacion-Habilidad*/
+ 
+
+
+.educacion-habilidad {
+    font-size: 1.2rem;
+    
+    padding:40px 40px ;
+    
+}
+.educacion-habilidad h3{
+    
+    margin: 30px;
+}
+ .educacion-habilidad ul li{
+    margin: 10px;
+ }
+
+ /*Contacto*/
+ .contacto{
+    background-color: #81959e;
+ }
+ .columnas{
+    display: flex;
+    
+    justify-content: center;
+ }
+ .col{
+    margin: 40px;
+    text-align: justify;
+ }
+ .col h2{
+    text-align: center;
+    margin: 20px;
+ }
+ 
+ .info-contacto{
+    text-align: center;
+ }
+
+.contacto h3{
+    padding-top:  50px;
+}
+.contacto .fa{
+    background-color: #81959e;
+}
+
+ @media screen and (max-width:650px){
+   .columnas{
+    display: block;
+   }
+   .col{
+    text-align: center;
+    margin: 20px;
+   }
+ }
+
+
+
